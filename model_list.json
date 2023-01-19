@@ -1,5 +1,6 @@
 {
     "models": [
+	    "koharu\xc",
         "Potion-Maker/Pio",
         "Potion-Maker/Tia",
         "bilibili-live/22",
@@ -33,7 +34,8 @@
         "KantaiCollection/murakumo"
     ],
     "messages": [
-        "来自 Potion Maker 的 Pio 酱 ~",
+        "我是 koharu 可爱 的 小春 (xc) ~",
+		"来自 Potion Maker 的 Pio 酱 ~",
         "来自 Potion Maker 的 Tia 酱 ~",
         "来自 Bilibili Live 的 22 哦 ~",
         "来自 Bilibili Live 的 33 的说",
