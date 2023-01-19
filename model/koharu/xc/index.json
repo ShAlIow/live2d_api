@@ -1,1 +1,28 @@
-{"version":"Sample 1.0.0","model":"model.moc","textures":["textures.2048/xc.png"],"motions":{"idle":[{"file":"motions/idle.motions"}],"":[{"file":"motions/06.motions"},{"file":"motions/07.motions"},{"file":"motions/08.motions"},{"file":"motions/09.motions"},{"file":"motions/01.motions"},{"file":"motions/02.motions"},{"file":"motions/03.motions"},{"file":"motions/04.motions"},{"file":"motions/05.motions"}]},"physics":"physics.json","layout":{"center_x": 0,"center_y": 0,"width": 1.8},"hit_areas_custom":{"head_x":[-0.35, 0.6],"head_y":[0.19, -0.2],"body_x":[-0.3, -0.25],"body_y":[0.3, -0.9]},"name":"xc"}
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"textures.2048/xc.png"
+	],
+    "physics":"physics.json",
+	],
+	"motions":{
+	    "idle":[
+			{"file":"motions/idle.mtn","fade_in":2000, "fade_out":2000}
+		],
+		"flick_head":[
+			{"file":"motions/06.mtn"},
+			{"file":"motions/05.mtn"},
+			{"file":"motions/04.mtn"},
+			{"file":"motions/03.mtn"}
+		],
+		"tap_body":[
+            {"file":"motions/murakumo_tap_bust_01.mtn"},
+			{"file":"motions/02.mtn"},
+			{"file":"motions/01.mtn"},
+			{"file":"motions/07.mtn"},
+			{"file":"motions/08.mtn"},
+			{"file":"motions/09.mtn"}
+		]
+	}
+}
